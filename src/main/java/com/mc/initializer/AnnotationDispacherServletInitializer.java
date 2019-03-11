@@ -17,6 +17,7 @@ public class AnnotationDispacherServletInitializer implements WebApplicationInit
 
 	@Override
 	public void onStartup(ServletContext servletContext) throws ServletException {
+                int i=0;
 		AnnotationConfigWebApplicationContext rootApplicationContext=null;
 		AnnotationConfigWebApplicationContext servletApplicationContext=null;
 		ContextLoaderListener contextLoaderListener=null;
